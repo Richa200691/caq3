@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+<title>jQuery Display Image on Button Click</title>
+ 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+	$('.showbtn').click(function(){
+   		$('Button').replaceWith('<img src="lpu.png" alt="display image on button click" class="mainDiv img-responsive img-thumbnail"/>');
+	});
+  	 
+});
+
+ 
+
+</script>
+<style>
+ .mainDiv{
+     
+	 text-align: center;
+	 width: 900px;
+	 height: 400px;
+	 border: 1px solid black;
+ }
+ 
+ .showbtn{
+	 margin-top: 200px;
+ }
+</style>
+</head>
+<body>
+ 
+	 
+		
+		<div class="mainDiv">
+			<button type="button" onclick="disappear()" class="showbtn">wow</button>  
+		</div>
+	 
+
+
+ 
+</body>
+</html>              
